@@ -3,6 +3,29 @@
 let firstName = "Arya";
 let lastName = "Stark";
 
+alert(firstName);
+alert(lastName);
+
+let firstName = "John";
+let lastName = "Snow";
+let fullName = firstName + lastName;
+
+alert(firstName);
+alert(lastName);
+alert(firstName + lastName);
+
+const fullName;
+
+$name = "Jyoti";
+$username = $name;
+$isAdmin = true;
+
+alert($name);
+alert($username);
+alert($isAdmin);
+
+
+
 // Do the following:
 
 // Alert the value of the firstName.
