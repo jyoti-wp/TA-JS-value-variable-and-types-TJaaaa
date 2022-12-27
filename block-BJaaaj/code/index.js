@@ -46,7 +46,7 @@ newUser = name;
 isAdmin = true;
 // Alert the values of all the three variables.
 alert(name);
-alert(username);
+alert(newUser);
 alert(isAdmin);
 
 // Assignment and re-assignment
