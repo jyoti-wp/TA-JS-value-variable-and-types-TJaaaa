@@ -7,12 +7,11 @@
 */
 
 const username = "Jyoti";
-let bio = `Learning to code `;
+let bio = "Learning to code";
 
 let firstName = "Arya";
 let lastName = "Stark";
 
-alert(username);
 
 /* Do the following using ` + ` operator
   - Alert message saying `
@@ -21,10 +20,19 @@ I am[username] and my bio is[bio]
   - Alert the message `
 I 'm Arya Stark of Winterfell` using the variable name firstName and lastName. * /
 
+
   /* Do the following using string template literal
     - Alert message saying `I am [username] and my bio is [bio]`. Replace square brackets with the value of variable.
     - Alert the message `I'm Arya Stark of Winterfell` using the variable name firstName and lastName.
   */
+
+alert("I am " + username + " " + "and my bio is " + bio);
+
+alert("I'm " + firstName + " " + lastName + " " + "of Winterfell");
+
+alert(`I am ${username} and my bio is ${bio}`);
+
+alert(`I'm ${firstName} of ${lastName}`);
 
 let amount = 200;
 const taxPercent = 10;
@@ -36,9 +44,14 @@ const taxPercent = 10;
   - Above message should be in two lines
 */
 
+alert("The total amount is" + " " + amount + "\n The tax amount is " + (amount * taxPercent) / 100);
+
+
 /* Use double quote and escape character:
-  - Alert a message saying `The total amount is [amount]
-    the tax amount is [(amount * taxPercent) / 100]
-  `
+  - Alert a message saying `
+    The total amount is[amount] the tax amount is[(amount * taxPercent) / 100]
+    `
   - Above message should be in two lines
 */
+
+alert(`The total amount is ${amount} the tax amount is ${(amount * taxPercent) / 100}`);
