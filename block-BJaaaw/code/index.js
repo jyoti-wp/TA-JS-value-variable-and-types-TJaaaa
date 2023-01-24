@@ -7,12 +7,12 @@
   - `if` the number is odd print the message "number is odd"
 */
 
-let num = 2;
+let num = Number(prompt("Enter a number"));
 
-switch (num) {
-  case = 2:
-    alert("Number is even");
-    break;
+if (num % 2 === 0) {
+  alert("The number is even");
+} else {
+  alert("Number is odd");
 }
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
